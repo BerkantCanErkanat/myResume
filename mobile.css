@@ -1,0 +1,70 @@
+/*header*/
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    margin-bottom: .5rem;
+}
+.actions ul li {
+    display: block;
+    padding: .1rem;
+}
+.actions ul li a {
+    padding: .2rem;
+}
+
+/*Summary*/
+#summary {
+    flex-direction: column;
+}
+#summary img {
+ align-self: center;
+}
+#summary h3 {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+/*work exp*/
+.work-exp-container {
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin-top: 0;
+}
+
+/*education*/
+.educ-container {
+    flex-direction: column;
+   
+}
+.educ-item {
+    margin: .5rem;
+    width: 100%;
+    justify-content: start;
+}
+.educ-item img {
+    width: 70px;
+    height: 70px;
+}
+
+/*Skills*/
+#skills ul li {
+    display: block;
+    margin:.5rem;
+    padding: .1rem;
+}
+
+/*languages*/
+.languages {
+    flex-direction: column;
+}
+
+/*other info*/
+#other-info .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+

@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+header.container {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+.actions ul {
+    list-style: none;
+}
+.actions ul li {
+    display: inline;
+}
+.actions ul li a {
+    text-decoration: none;
+    color: teal;
+    padding: .5rem;
+}
+.actions ul li a:hover {
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+}
+
+/*Summary*/
+#summary {
+    display: flex;
+    padding: 1.25rem;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+#summary p,h3{
+    padding: .5rem;
+}
+img {
+    width: 150px;
+}
+#summary a {
+    text-decoration: none;
+}
+
+/*work-exp*/
+#work-exp {
+    background-color: ghostwhite;
+}
+.work-exp-container {
+    margin-top: .6rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-item {
+    display: flex;
+    padding: .5rem;
+}
+.work-item img {
+    margin-right: 1rem;
+}
+
+/*Education*/
+#education {
+    background-color:ghostwhite;
+}
+.educ-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.educ-item {
+    display: flex;
+    width: 50%;
+    padding: .4rem;
+    align-items: flex-start;
+}
+.educ-item h4{
+    margin-left: .5rem;
+    align-self: flex-start;
+}
+
+/*Skills*/
+#skills {
+    background-color: ghostwhite;
+}
+#skills ul{
+    text-align: center;
+}
+#skills h4{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#skills ul li {
+    display: inline;
+    margin: 1rem;
+    padding: .7rem;
+}
+#skills ul li i {
+    padding:.3rem;
+}
+
+/*Languages*/
+#languages {
+    background-color: ghostwhite;
+}
+.languages {
+    display: flex;
+    justify-content: space-around;
+}
+.languages .lang-item {
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem;
+}
+.languages .lang-item:hover {
+    background-color: teal;
+    color: white;
+}
+
+/*reference*/
+#references {
+    background-color: ghostwhite;
+}
+.reference {
+    margin-left: 2rem;
+    margin-bottom: .9rem;
+}
+.reference ul{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+/*other info*/
+#other-info {
+    background-color:ghostwhite;
+    color: black;
+}
+#other-info .container {
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+}
+.container ul {
+    list-style: none;
+}
+.container ul li i {
+    margin-right: .5rem;
+}
+#other-info .container ul li a {
+    text-decoration: none;
+    color: black;
+}
+
